@@ -1,0 +1,29 @@
+# -------------------------------------------------
+#  Global
+# -------------------------------------------------
+.DS_Store
+Thumbs.db
+*.log
+*.swo
+*.swp
+
+# IDE / Editor settings
+.vscode/
+.idea/
+
+# Environment variables
+**/.env        # any folder/.env
+**/.env.*      # .env.local, .env.production, etc.
+
+
+# Production builds / generated output
+**/dist/
+**/build/
+
+# -------------------------------------------------
+#  Node / TypeScript
+# -------------------------------------------------
+**/node_modules/
+
+# TypeScript
+**/*.tsbuildinfo
